@@ -2,11 +2,11 @@
 using namespace std;
 int main() {
 	char a;
-	cout <<"Enter an alphabet\n";
+	cout <<"Enter a character\n";
 	cin >>a;
-	if (a=='a' || a=='e' || a=='i' || a=='o' || a=='u')
-	cout <<a <<" is an vowel\n";
+	if (a=='a'||a=='e'||a=='i'||a=='o'||a=='u'||a=='A'||a=='E'||a=='I'||a=='O'||a=='U')
+	cout <<"The alphabet is a vowel\n";
 	else
-	cout <<a <<" is a consonant\n";
+	cout <<"The alphabet is a consonant\n";
 	return 0;
 }
