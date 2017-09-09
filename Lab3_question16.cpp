@@ -5,7 +5,7 @@ int main() {
 	cout <<"Enter the angles of a triangle\n";
 	cin >>a1>>a2>>a3;
 	sum = a1+a2+a3;
-	if (sum=180)
+	if (sum==180)
 	{
 		if (a1==a2 && a2==a3 && a3==a1)
 		cout <<"The triangle is equilateral\n";
