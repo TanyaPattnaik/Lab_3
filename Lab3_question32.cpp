@@ -4,7 +4,7 @@ using namespace std;
 int main() {
   int num=0;
   int dig=0,F=0,L=0;
-  cout<<"\n \nEnter the number(INTEGER): ";
+  cout<<"Enter the number(INTEGER):\n";
   cin>>num;
   int num1=abs(num);
   L=num1%10;
